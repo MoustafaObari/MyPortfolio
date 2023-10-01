@@ -41,11 +41,5 @@ app.use(function(err, req, res, next) {
 });
 
 
-var http = require('http')
 
-//create a server object:
-http.createServer(function (req, res) {
-  res.write('')
-  res.end();
-}).listen(80);
 module.exports = app;
