@@ -1,0 +1,199 @@
+/*style.css_Mercy_Adebayo_301246292_1/10/2023*/
+
+a {
+  color: #00B7FF;
+  
+}
+
+.navbar-logo {
+  margin-right: 10px; 
+}
+.container {
+  background-color: black;
+  min-width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff; /* Change the link color */
+  font-size: 18px; /* Increase the font size */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #007bff; /* Change the hover color */
+}
+
+.navbar-brand{
+  color: #fff;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0 0;
+  padding: 0 0;
+  }
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.welcome-section {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.welcome-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+a.resume-link {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a.resume-link:hover {
+  text-decoration: underline; 
+}
+/* Style for the Mission Statement section */
+.mission-section {
+  background-color: #f8f8f8;
+  padding: 40px; 
+  text-align:center;
+  
+}
+
+
+.mission-section h2 {
+  font-size: 24px; 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mission-section p {
+  font-size: 16px;
+  line-height: 1.6; 
+  margin-bottom: 20px; 
+}
+.about-section{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+
+
+footer {
+  background-color:black;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.footer-content {
+  align-items: center;
+  width: 100%;
+}
+
+.footer-info p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-social .social-icon {
+  /*margin: 0 10px;*/
+  text-decoration: none;
+  color: #fff;
+  font-size: 4px;
+  margin: 0 10px;
+}
+
+
+/* Style for the Services Page */
+.services-section {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Style for service cards */
+.service-card {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #0e0ef0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+textarea{
+  width: 100%;
+  height: 150px;
+}
+.project{
+  padding-right: 30px;
+  padding-left: 30px;
+}
