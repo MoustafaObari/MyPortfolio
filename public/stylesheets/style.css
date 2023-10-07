@@ -1,15 +1,28 @@
-/*style.css_Mercy_Adebayo_301246292_1/10/2023*/
+/*Style.css 
+Moustafa Mohammed Obari
+3012455111
+October 5th 2023 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,500;0,6..12,700;1,6..12,200&display=swap');
+
 
 a {
-  color: #00B7FF;
+  color: #0e3a5d;
   
+}
+
+.background {
+  background-color: #edfcff;
+}
+
+.text-color {
+  color: #0e3a5d;
 }
 
 .navbar-logo {
   margin-right: 10px; 
 }
+
 .container {
-  background-color: black;
   min-width: 100%;
   align-items: center;
   display: flex;
@@ -18,31 +31,37 @@ a {
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #fff; /* Change the link color */
-  font-size: 18px; /* Increase the font size */
+  color: #06a9ff; 
+  font-size: 15px; 
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #007bff; /* Change the hover color */
+  color: #0d9b3f; 
 }
 
 .navbar-brand{
   color: #fff;
 }
+
+.brand-color {
+  color: #0d609b;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #f5f5f5;
   margin: 0 0;
   padding: 0 0;
   }
 
 h1 {
-  font-size: 28px;
+  font-size: 16px;
   color: #333;
   margin-bottom: 20px;
 }
+
 p {
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -59,7 +78,7 @@ p {
   margin: 0 auto;
 }
 a.resume-link {
-  color: #007bff; /* Link color */
+  color: #17a343; /* Link color */
   text-decoration: none; /* Remove underline */
 }
 
@@ -74,6 +93,53 @@ a.resume-link:hover {
   
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hero-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tab-1, .tab-2 {
+  flex: 1;
+  max-width: 45%; 
+}
+
+@media (max-width: 734px) {
+  .tab-1, .tab-2 {
+      max-width: 100%;
+      width: 100%; 
+  }
+}
+
+.trusted-section {
+  text-align: center; 
+  padding-top: 100px;
+}
+
+.trusted-section h1 {
+  margin-bottom: 15px; 
+}
+
+.img-trust {
+  width: 60px;
+  height: 50px;
+  margin: 0 20px; 
+  vertical-align: middle; 
+  display: inline-block; 
+}
+
+.img-style {
+  width: 80%;
+  height: 100%;
+}
 
 .mission-section h2 {
   font-size: 24px; 
@@ -86,18 +152,24 @@ a.resume-link:hover {
   line-height: 1.6; 
   margin-bottom: 20px; 
 }
+
+.vh {
+  height: 70vh;
+}
+
 .about-section{
   padding-top: 50px;
   padding-bottom: 30px;
   padding-right: 20px;
 }
 
+.image-slider {
+  width: 300px;
+  height: 300px;
+}
 
 footer {
-  background-color:black;
-  color: #fff;
   text-align: center;
-  
 }
 
 .footer-content {
@@ -106,8 +178,8 @@ footer {
 }
 
 .footer-info p {
-  color: #fff;
   font-size: 14px;
+  color: #007bff;
 }
 
 .footer-social .social-icon {
@@ -119,14 +191,12 @@ footer {
 }
 
 
-/* Style for the Services Page */
 .services-section {
   background-color: #f8f8f8;
   padding: 40px 0;
   text-align: center;
 }
 
-/* Style for service cards */
 .service-card {
   margin: 20px;
   padding: 20px;
@@ -176,7 +246,7 @@ input[type="text"], input[type="email"], textarea {
 }
 
 button[type="submit"] {
-  background-color: #0e0ef0;
+  background-color: #0e65f0;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -196,4 +266,34 @@ textarea{
 .project{
   padding-right: 30px;
   padding-left: 30px;
+}
+
+
+.project-section {
+  width: 100%;
+  padding: 0 5%; 
+}
+
+.project {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 50px; 
+}
+
+.project img.image-slider {
+  width: 40%; 
+  max-width: 300px; 
+}
+
+.project > div {
+  width: 60%; 
+  padding: 0 20px;
+}
+
+.project:nth-child(even) img.image-slider {
+  order: 2; 
+}
+
+.project:nth-child(even) > div {
+  order: 1; 
 }
